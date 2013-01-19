@@ -1,0 +1,6 @@
+%div{:id => winery.id, :class => "winery"}
+  %h3.name
+    =winery.name
+  %p.status
+    =partial(:visit, :locals => {:winery => winery})
+  .extra-info

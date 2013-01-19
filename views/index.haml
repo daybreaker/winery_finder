@@ -1,0 +1,4 @@
+%h2="List of Wineries"
+
+-@wineries.each do |winery|
+  =partial(:winery, :locals => {:winery => winery})

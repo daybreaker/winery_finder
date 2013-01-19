@@ -1,0 +1,15 @@
+!!! 5
+%html
+  %head
+    %title= "Winery Finder"
+    %meta{ :content => "", :name => "description" }
+    %meta{ :content => "", :name => "author" }
+    %meta{ :content => "3 days", :name => "revisit-after" }
+    %link{ :href => "http://creativecommons.org/licenses/by/3.0/", :rel => "license", :title => "Creative Commons Attribution 3.0 Unported License" }
+    %link{ :href => "/feed", :rel => "alternate", :title => "Atom", :type => "application/atom+xml" }
+    %link{ :href => "/css/main.css", :media => "screen", :rel => "stylesheet" }
+    %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" }
+    %script{ :src => "/javascript/application.js", :type => "text/javascript" }
+  %body
+    =yield
+
